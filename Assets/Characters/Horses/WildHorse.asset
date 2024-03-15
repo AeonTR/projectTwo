@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6b96d4cdb9a4e40a9fa56a54f52e07, type: 3}
+  m_Name: WildHorse
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: "Bini\u015F \u0130zni"
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: Tuketim
+  icon: {fileID: 21300000, guid: 4bf23958390db824ab263cf972df5ef4, type: 3}
+  sellPrice: 0
+  weight: 0
+  maxStack: 1
+  itemRefine: {fileID: 0}
+  lockDuration: 0
+  expireDurationUnit: 2
+  expireDuration: 0
+  dropModel: {fileID: 0}
+  dismantleReturnGold: 0
+  dismantleReturnItems: []
+  dismantleReturnCurrencies: []
+  restrictDealing: 1
+  restrictDropping: 1
+  restrictSelling: 1
+  cashShopItemGeneratingList: []
+  requirement:
+    availableClass: {fileID: 0}
+    availableClasses: []
+    availableFactions: []
+    level: 0
+    attributeAmounts: []
+  mountEntity: {fileID: 1526456468982785095, guid: ab23a0e6e57da7445974ba0742928932,
+    type: 3}
+  useItemCooldown: 0

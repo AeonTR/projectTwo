@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51843b8397053bbb7daf9eac867c4f64, type: 3}
+  m_Name: Shaman
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: Shaman
+  languageSpecificTitles:
+  - key: ENG
+    value: Shaman
+  - key: ES
+    value: "Cham\xE1n"
+  - key: TR
+    value: "\u015Eaman"
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 21300000, guid: 311094683301b6e47854ce73c2a5e778, type: 2}
+  resistanceBattlePointScore: 5
+  armorBattlePointScore: 5
+  damageBattlePointScore: 10
+  maxResistanceAmount: 1
+  damageHitEffects: []
+  damagePlayers:
+  - {fileID: 11400000, guid: 8e58ebef7594ddf4a80f9d1ba85da25c, type: 2}
+  - {fileID: 11400000, guid: 28d083683fb2ea44190861947ab6ae8a, type: 2}

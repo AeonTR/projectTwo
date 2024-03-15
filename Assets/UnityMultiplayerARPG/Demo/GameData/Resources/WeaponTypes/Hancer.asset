@@ -1,0 +1,1308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea06a475b732744abb433090755a3e1, type: 3}
+  m_Name: Hancer
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: Hancer
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 0}
+  equipType: 1
+  dualWieldRestriction: 0
+  damageInfo:
+    damageType: 0
+    hitOnlySelectedTarget: 1
+    startAttackDistance: 0
+    hitDistance: 1.5
+    hitFov: 90
+    missileDistance: 5
+    missileSpeed: 5
+    missileDamageEntity: {fileID: 0}
+    projectileEffect: {fileID: 0}
+    pierceThroughEntities: 0
+    impactEffects: {fileID: 0}
+    throwForce: 0
+    throwableLifeTime: 0
+    throwableDamageEntity: {fileID: 0}
+    customDamageInfo: {fileID: 0}
+  effectivenessAttributes:
+  - attribute: {fileID: 11400000, guid: 0e223af20738b88419c22a1a0401a21b, type: 2}
+    effectiveness: 0.1
+  ammoType: {fileID: 0}
+  playableCharacterModelSettings:
+    applyWeaponAnimations: 1
+    weaponAnimations:
+      weaponType: {fileID: 0}
+      idleState:
+        clip: {fileID: 8156563038741742750, guid: 1c919734f2685a040bd91fa928833c7c,
+          type: 3}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+      moveStates:
+        forwardState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        leftState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        rightState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardLeftState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardRightState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardLeftState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardRightState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+      sprintStates:
+        forwardState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        leftState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        rightState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardLeftState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardRightState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardLeftState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardRightState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+      walkStates:
+        forwardState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        leftState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        rightState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardLeftState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardRightState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardLeftState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardRightState:
+          clip: {fileID: -8132389570101699492, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+      crouchIdleState:
+        clip: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+      crouchMoveStates:
+        forwardState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        leftState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        rightState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardLeftState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardRightState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardLeftState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardRightState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+      crawlIdleState:
+        clip: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+      crawlMoveStates:
+        forwardState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        leftState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        rightState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardLeftState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardRightState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardLeftState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardRightState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+      swimIdleState:
+        clip: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+      swimMoveStates:
+        forwardState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        leftState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        rightState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardLeftState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        forwardRightState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardLeftState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+        backwardRightState:
+          clip: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+      jumpState:
+        clip: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+      fallState:
+        clip: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+      landedState:
+        clip: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+      hurtState:
+        clip: {fileID: -6801902384038587356, guid: 1c919734f2685a040bd91fa928833c7c,
+          type: 3}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      deadState:
+        clip: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+      pickupState:
+        clip: {fileID: 4787742288682755051, guid: 1c919734f2685a040bd91fa928833c7c,
+          type: 3}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      rightHandChargeState:
+        clip: {fileID: -517288594595793994, guid: 1c919734f2685a040bd91fa928833c7c,
+          type: 3}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      leftHandChargeState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      rightHandAttackAnimations:
+      - state:
+          clip: {fileID: 4264130003673863479, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 1.3
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        triggerDurationRates:
+        - 0.5
+        durationType: 0
+        fixedDuration: 0
+        extendDuration: 0
+        audioClips:
+        - {fileID: 8300000, guid: 1da5d01602eb10f42ae96c50af9558b9, type: 3}
+      - state:
+          clip: {fileID: -839228454640597260, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 1.3
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        triggerDurationRates:
+        - 0.5
+        durationType: 0
+        fixedDuration: 0
+        extendDuration: 0
+        audioClips:
+        - {fileID: 8300000, guid: 579e23075be303741940a265c0d7bd87, type: 3}
+      - state:
+          clip: {fileID: 1113490428594860984, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 1.3
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        triggerDurationRates:
+        - 0.5
+        durationType: 0
+        fixedDuration: 0
+        extendDuration: 0
+        audioClips:
+        - {fileID: 8300000, guid: e39548b35513be44b9138d6ab93fd369, type: 3}
+      - state:
+          clip: {fileID: 1919703204256909039, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 1.3
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        triggerDurationRates:
+        - 0.5
+        durationType: 0
+        fixedDuration: 0
+        extendDuration: 0
+        audioClips:
+        - {fileID: 8300000, guid: aa9c1d280df3005498e489d2da17c668, type: 3}
+      - state:
+          clip: {fileID: -2503593301304770255, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 1.3
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        triggerDurationRates:
+        - 0.5
+        durationType: 0
+        fixedDuration: 0
+        extendDuration: 0
+        audioClips:
+        - {fileID: 8300000, guid: 6d41470763b8a044f8e7f110ba1a8daa, type: 3}
+      - state:
+          clip: {fileID: 3549968887917469008, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 1.3
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        triggerDurationRates:
+        - 0.5
+        durationType: 0
+        fixedDuration: 0
+        extendDuration: 0
+        audioClips:
+        - {fileID: 8300000, guid: 8a149414883f62e418b2e2f59a88beb0, type: 3}
+      - state:
+          clip: {fileID: 8303651152600808157, guid: 1c919734f2685a040bd91fa928833c7c,
+            type: 3}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 1.3
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        triggerDurationRates:
+        - 0.5
+        durationType: 0
+        fixedDuration: 0
+        extendDuration: 0
+        audioClips:
+        - {fileID: 8300000, guid: d98ee54d4c7f6ff438075b22bdca07d1, type: 3}
+      leftHandAttackAnimations: []
+      rightHandReloadAnimation:
+        state:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        triggerDurationRates: []
+        durationType: 0
+        fixedDuration: 0
+        extendDuration: 0
+        audioClips: []
+      leftHandReloadAnimation:
+        state:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        triggerDurationRates: []
+        durationType: 0
+        fixedDuration: 0
+        extendDuration: 0
+        audioClips: []
+      rightHandWeaponSheathingAnimation:
+        sheathState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        sheathedDurationRate: 0
+        unsheathState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        unsheathedDurationRate: 0
+      leftHandWeaponSheathingAnimation:
+        sheathState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        sheathedDurationRate: 0
+        unsheathState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        unsheathedDurationRate: 0
+    applyLeftHandWeaponAnimations: 0
+    leftHandWeaponAnimations:
+      weaponType: {fileID: 0}
+      idleState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      moveStates:
+        forwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        leftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        rightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+      sprintStates:
+        forwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        leftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        rightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+      walkStates:
+        forwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        leftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        rightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+      crouchIdleState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      crouchMoveStates:
+        forwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        leftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        rightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+      crawlIdleState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      crawlMoveStates:
+        forwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        leftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        rightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+      swimIdleState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      swimMoveStates:
+        forwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        leftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        rightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        forwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardLeftState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+        backwardRightState:
+          clip: {fileID: 0}
+          avatarMask: {fileID: 0}
+          animSpeedRate: 0
+          transitionDuration: 0
+          isAdditive: 0
+          applyFootIk: 0
+          applyPlayableIk: 0
+          skipMovementValidation: 0
+          shouldUseRootMotion: 0
+      jumpState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      fallState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      landedState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      hurtState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      deadState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0
+      pickupState:
+        clip: {fileID: 0}
+        avatarMask: {fileID: 0}
+        animSpeedRate: 0
+        transitionDuration: 0
+        isAdditive: 0
+        applyFootIk: 0
+        applyPlayableIk: 0
+        skipMovementValidation: 0
+        shouldUseRootMotion: 0

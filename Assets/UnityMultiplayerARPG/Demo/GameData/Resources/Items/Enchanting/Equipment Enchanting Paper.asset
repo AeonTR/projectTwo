@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47375fe8ebfa36945a8e29a29e86fdfc, type: 3}
+  m_Name: Equipment Enchanting Paper
+  m_EditorClassIdentifier: 
+  id: EnchantingPaper001
+  defaultTitle: EnchantingPaper001
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: Tuketim
+  icon: {fileID: 21300000, guid: 336969c81f19c4f46ba0b0285dc8573c, type: 3}
+  sellPrice: 0
+  weight: 0
+  maxStack: 99
+  itemRefine: {fileID: 0}
+  lockDuration: 0
+  expireDurationUnit: 2
+  expireDuration: 0
+  dropModel: {fileID: 1452246715939488, guid: 7c23d14b14f07ef469532db8464907fa, type: 3}
+  dismantleReturnGold: 0
+  dismantleReturnItems: []
+  dismantleReturnCurrencies: []
+  restrictDealing: 0
+  restrictDropping: 0
+  restrictSelling: 0
+  cashShopItemGeneratingList: []
+  enchatingAttr:
+  - {fileID: 11400000, guid: 0f709142c8b0fb8429e1f35c955e0b9e, type: 2}
+  - {fileID: 11400000, guid: 8bf22d5eced380d4494826c89a1dff3a, type: 2}
+  - {fileID: 11400000, guid: 4916a738ba75f904b86a50c0687cc4c4, type: 2}
+  - {fileID: 11400000, guid: 48e7518c262ff784db0e2abd7e57f192, type: 2}
+  - {fileID: 11400000, guid: d5aa9759dc5d4d94fb8e3dd00222078e, type: 2}
+  enchatingAttrCount: 3

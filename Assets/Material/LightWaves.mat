@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LightWaves
+  m_Shader: {fileID: 4800000, guid: 26cc1b2e4fe1a324aa615f67b3877f0f, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - BLENDING
+  - COMMTRANSP
+  - LIGHTING
+  - REFLECTION
+  - TEXTURES
+  - WAVES
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DerivHeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissloveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UVNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave1:
+        m_Texture: {fileID: 2800000, guid: 5041d3b5754ffc940a0cd5f93327647e, type: 3}
+        m_Scale: {x: 0.02, y: 0.015}
+        m_Offset: {x: 0, y: 0}
+    - _Wave2:
+        m_Texture: {fileID: 2800000, guid: 7ceeee3ea5ff6df42a471c4e59c6052a, type: 3}
+        m_Scale: {x: 0.01, y: 0.01}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - DstMode: 3
+    - SrcMode: 4
+    - _Alpha: 1
+    - _AlphaFactor: 1
+    - _Attenuation: 0
+    - _BLENDING: 1
+    - _Bias: -1
+    - _Brightness: 0
+    - _COMMTRANSP: 1
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _Cutoff: 0.1
+    - _DepthTransperent: 0
+    - _DiffTexRot: 0
+    - _DissloveAmount: 0.1
+    - _DissloveOutlineStep: 0.1
+    - _Distortion: 400
+    - _DistortionVert: 1
+    - _DstBlend: 0
+    - _EdgeDistortion: 1
+    - _FPOW: 3
+    - _FadeBlend: 1
+    - _FadeBlend2: 1
+    - _FadeDepth: 1
+    - _FlowOffset: 0.25
+    - _FlowStrength: 0.1
+    - _FoamIntensity: 1
+    - _HeightScale: 0.5
+    - _HeightScaleModulated: 4
+    - _MainTexRot: 0
+    - _OccludePower: 1
+    - _OffsetFresnel: 0.1
+    - _Power: 2
+    - _R0: 0.05
+    - _REFLECTION: 1
+    - _RefStrength: 1
+    - _ReflectionBrightness: 0.5
+    - _RenderingMode: 0
+    - _RimFresnel: 1
+    - _RimIntensity: 1
+    - _RimLightFresnel: 1
+    - _RimLightIntensity: 1
+    - _SECTIONLIGHTING: 1
+    - _SECTIONTEXTURES: 1
+    - _SECTIONWAVES: 1
+    - _Scale: 10
+    - _Shininess: 5
+    - _Speed: 0.1
+    - _SrcBlend: 0
+    - _TexturesScale: 10
+    - _Tiling: 3
+    - _UVNoiseBias: 0.6
+    - _UVNoiseIntensity: 0.5
+    - _WaveScale: 1
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 0.50913715, g: 0.5299055, b: 0.53676474, a: 0.078431375}
+    - _Direction: {r: 0.05, g: 5, b: 2, a: -2}
+    - _DissloveOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FadeColor: {r: 0.9, g: 0.9, b: 1, a: 1}
+    - _FoamDirection: {r: 1, g: 1, b: -1, a: -1}
+    - _GAmplitude: {r: 0.1, g: 0.3, b: 0.2, a: 0.15}
+    - _GDirectionAB: {r: 0.3, g: 0.5, b: 0.85, a: 0.25}
+    - _GDirectionCD: {r: 0.1, g: 0.9, b: 0.5, a: 0.5}
+    - _GFrequency: {r: 0.6, g: 0.5, b: 0.5, a: 1.8}
+    - _GSpeed: {r: -0.23, g: -1.25, b: -3, a: 1.5}
+    - _GSteepness: {r: 1, g: 2, b: 1.5, a: 1}
+    - _GlareColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OccludeColor: {r: 0, g: 0, b: 1, a: 1}
+    - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _UVNoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _WorldLightDir: {r: 0, g: 0.1, b: -0.5, a: 0}
+  m_BuildTextureStacks: []

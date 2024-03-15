@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b67f350c4283834f81cded3a656ff5e, type: 3}
+  m_Name: Savasci(E)_PlayerCharacter
+  m_EditorClassIdentifier: 
+  id: 5030
+  defaultTitle: "Sava\u015F\xE7\u0131"
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 21300000, guid: 525b7aea0d9f0e7438bde9446707a67a, type: 2}
+  stats:
+    baseStats:
+      hp: 760
+      hpRecovery: 0
+      hpLeechRate: 0
+      mp: 260
+      mpRecovery: 0
+      mpLeechRate: 0
+      stamina: 100
+      staminaRecovery: 0
+      staminaLeechRate: 0
+      food: 100
+      water: 100
+      accuracy: 0.3
+      evasion: 0
+      criRate: 0.07
+      criDmgRate: 1.02
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 5
+      atkSpeed: 1
+      weightLimit: 100
+      slotLimit: 0
+      goldRate: 0
+      expRate: 0
+      itemDropRate: 0
+      jumpHeight: 0
+      headDamageAbsorbs: 0
+      bodyDamageAbsorbs: 0
+      fallDamageAbsorbs: 0
+      gravityRate: 0
+      testStat1: 0
+    statsIncreaseEachLevel:
+      hp: 0
+      hpRecovery: 0
+      hpLeechRate: 0
+      mp: 0
+      mpRecovery: 0
+      mpLeechRate: 0
+      stamina: 0
+      staminaRecovery: 0
+      staminaLeechRate: 0
+      food: 0
+      water: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 0
+      atkSpeed: 0
+      weightLimit: 0
+      slotLimit: 0
+      goldRate: 0
+      expRate: 0
+      itemDropRate: 0
+      jumpHeight: 0
+      headDamageAbsorbs: 0
+      bodyDamageAbsorbs: 0
+      fallDamageAbsorbs: 0
+      gravityRate: 0
+      testStat1: 0
+    statsIncreaseEachLevelByLevels: []
+  attributes:
+  - attribute: {fileID: 11400000, guid: c7e3824f99bb4bc43b9566210f8d02f5, type: 2}
+    amount:
+      baseAmount: 4
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+  - attribute: {fileID: 11400000, guid: cd3d2fb4f3c67fd4dbba3bd0ccd0095e, type: 2}
+    amount:
+      baseAmount: 3
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+  - attribute: {fileID: 11400000, guid: 0e223af20738b88419c22a1a0401a21b, type: 2}
+    amount:
+      baseAmount: 6
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+  - attribute: {fileID: 11400000, guid: cf50e3647cfae0e44b683163d2171277, type: 2}
+    amount:
+      baseAmount: 3
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+  resistances: []
+  armors: []
+  statusEffectResistances: []
+  skillLevels:
+  - skill: {fileID: 11400000, guid: 7e5ea4f703c77e747b6076c32b13dc4c, type: 2}
+    level: 1
+  - skill: {fileID: 11400000, guid: 7e5ea4f703c77e747b6076c32b13dc4c, type: 2}
+    level: 1
+  - skill: {fileID: 11400000, guid: 7e5ea4f703c77e747b6076c32b13dc4c, type: 2}
+    level: 1
+  - skill: {fileID: 11400000, guid: 7e5ea4f703c77e747b6076c32b13dc4c, type: 2}
+    level: 1
+  - skill: {fileID: 11400000, guid: 7e5ea4f703c77e747b6076c32b13dc4c, type: 2}
+    level: 1
+  rightHandEquipItem: {fileID: 0}
+  leftHandEquipItem: {fileID: 0}
+  armorItems: []
+  startItems:
+  - item: {fileID: 11400000, guid: d4b8f37538526634195a982290157909, type: 2}
+    amount: 1
+  startMap: {fileID: 0}
+  useOverrideStartPosition: 0
+  overrideStartPosition: {x: 0, y: 0, z: 0}
+  useOverrideStartRotation: 0
+  overrideStartRotation: {x: 0, y: 0, z: 0}
+  startPointsByCondition: []

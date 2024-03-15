@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e06506c625da4eb20a1397a22b120, type: 3}
+  m_Name: 21 (Helmet)
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: Normal
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 0}
+  titleColor: {r: 1, g: 1, b: 1, a: 1}
+  levels:
+  - successRate: 0.85
+    requireItems: []
+    requireCurrencies: []
+    requireGold: 1000
+    refineFailDecreaseLevels: 1
+    refineFailDestroyItem: 1
+    availableEnhancers:
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.2
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    failReturnings: []
+  - successRate: 0.75
+    requireItems: []
+    requireCurrencies: []
+    requireGold: 2000
+    refineFailDecreaseLevels: 1
+    refineFailDestroyItem: 1
+    availableEnhancers:
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.2
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    failReturnings: []
+  - successRate: 0.7
+    requireItems: []
+    requireCurrencies: []
+    requireGold: 4000
+    refineFailDecreaseLevels: 1
+    refineFailDestroyItem: 1
+    availableEnhancers:
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.2
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    failReturnings: []
+  - successRate: 0.6
+    requireItems: []
+    requireCurrencies: []
+    requireGold: 8000
+    refineFailDecreaseLevels: 1
+    refineFailDestroyItem: 1
+    availableEnhancers:
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.2
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    failReturnings: []
+  - successRate: 0.5
+    requireItems: []
+    requireCurrencies: []
+    requireGold: 13000
+    refineFailDecreaseLevels: 1
+    refineFailDestroyItem: 1
+    availableEnhancers:
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.2
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    failReturnings: []
+  - successRate: 0.4
+    requireItems: []
+    requireCurrencies: []
+    requireGold: 20000
+    refineFailDecreaseLevels: 1
+    refineFailDestroyItem: 1
+    availableEnhancers:
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.2
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    failReturnings: []
+  - successRate: 0.35
+    requireItems:
+    - item: {fileID: 0}
+      amount: 2
+    requireCurrencies: []
+    requireGold: 30000
+    refineFailDecreaseLevels: 1
+    refineFailDestroyItem: 1
+    availableEnhancers:
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.2
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    failReturnings: []
+  - successRate: 0.3
+    requireItems:
+    - item: {fileID: 0}
+      amount: 4
+    requireCurrencies: []
+    requireGold: 70000
+    refineFailDecreaseLevels: 1
+    refineFailDestroyItem: 1
+    availableEnhancers:
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.2
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    failReturnings: []
+  - successRate: 0.25
+    requireItems:
+    - item: {fileID: 0}
+      amount: 2
+    requireCurrencies: []
+    requireGold: 120000
+    refineFailDecreaseLevels: 1
+    refineFailDestroyItem: 1
+    availableEnhancers:
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.1
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0.2
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 1
+      chanceToNotDestroyItem: 1
+    - item: {fileID: 0}
+      increaseSuccessRate: 0
+      decreaseRequireGoldRate: 0
+      chanceToNotDecreaseLevels: 0
+      chanceToNotDestroyItem: 1
+    failReturnings: []
+  repairPrices:
+  - durabilityRate: 0.75
+    requireItems: []
+    requireCurrencies: []
+    requireGold: 1500
+  - durabilityRate: 0.5
+    requireItems: []
+    requireCurrencies: []
+    requireGold: 1000
+  - durabilityRate: 0.25
+    requireItems: []
+    requireCurrencies: []
+    requireGold: 500

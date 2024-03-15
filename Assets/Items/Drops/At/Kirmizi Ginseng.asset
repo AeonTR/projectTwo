@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617b6870bc359f34b957272c4ef4d53d, type: 3}
+  m_Name: Kirmizi Ginseng
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: "K\u0131rm\u0131z\u0131 Ginseng"
+  languageSpecificTitles: []
+  defaultDescription: "Asker at\u0131 beslemek i\xE7in kullan\u0131l\u0131r."
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 21300000, guid: aaecf90dc0fdf0f4fb8f837c8fda3678, type: 2}
+  sellPrice: 30
+  weight: 0
+  maxStack: 200
+  itemRefine: {fileID: 0}
+  lockDuration: 0
+  expireDurationUnit: 2
+  expireDuration: 0
+  dropModel: {fileID: 1623872365912149, guid: b271d94692758724bbc3ba549e38db15, type: 3}
+  dismantleReturnGold: 0
+  dismantleReturnItems: []
+  dismantleReturnCurrencies: []
+  restrictDealing: 0
+  restrictDropping: 0
+  restrictSelling: 0
+  cashShopItemGeneratingList: []

@@ -79,7 +79,10 @@ namespace MultiplayerARPG
                 return;
             PitchRotation = CalculatePitchRotation(CharacterEntity.Pitch, Time.deltaTime, PitchRotation, axis, rotateOffset, inversePitch, lerpDamping, maxAngle);
             Transform tempTransform = Animator.GetBoneTransform(pitchBone);
-            tempTransform.localRotation = PitchRotation;
+            if (tempTransform)
+            {
+                tempTransform.localRotation = PitchRotation;
+            }
         }
 
         public static Quaternion CalculatePitchRotation(

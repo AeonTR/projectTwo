@@ -94,7 +94,7 @@ namespace MultiplayerARPG
                 return false;
             }
 
-            int dataId = GetRandomDamageElement(equipmentItem.EnchantingAttributes.damages);
+            int dataId = GetRandomDamageElement(equipmentItem.EnchantingAttributes.damages, equipmentItem.ItemType);
 
             int count = equipmentItem.EnchantingAttributes.damages.Length;
             Array.Resize(ref equipmentItem.EnchantingAttributes.damages, count + 1);
@@ -119,12 +119,21 @@ namespace MultiplayerARPG
             return true;
         }
 
-        public static int GetRandomDamageElement(DamageAmount[] filter)
+        public static int GetRandomDamageElement(DamageAmount[] filter, ItemType itemType)
         {
-            List<DamageElement> list = new List<DamageElement>();
-            for (int i = 0; i < GameInstance.DamageElements.Count; i++)
+            Dictionary<int, DamageElement> filterDamage = new Dictionary<int, DamageElement>();
+            foreach (var damage in GameInstance.DamageElements)
             {
-                int dataId = GameInstance.DamageElements.ElementAt(i).Key;
+                if (itemType == damage.Value.AdapterType)
+                {
+                    filterDamage.Add(damage.Key, damage.Value);
+                }
+            }
+
+            List<DamageElement> list = new List<DamageElement>();
+            for (int i = 0; i < filterDamage.Count; i++)
+            {
+                int dataId = filterDamage.ElementAt(i).Key;
                 bool isFilter = false;
                 for (int j = 0; j < filter.Length; j++)
                 {
@@ -136,7 +145,7 @@ namespace MultiplayerARPG
 
                 if (isFilter == false)
                 {
-                    list.Add(GameInstance.DamageElements.ElementAt(i).Value);
+                    list.Add(filterDamage.ElementAt(i).Value);
                 }
             }
 
@@ -221,7 +230,7 @@ namespace MultiplayerARPG
             }
 
             Dictionary<int, DamageElement> filterDamage = new Dictionary<int, DamageElement>();
-            foreach(var damage in GameInstance.DamageElements)
+            foreach (var damage in GameInstance.DamageElements)
             {
                 if (equipmentItem.ItemType == damage.Value.AdapterType)
                 {

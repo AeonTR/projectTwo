@@ -947,5 +947,10 @@ namespace MultiplayerARPG
         /// Format => {0} = {Status Effect}, {1} = {Entries}
         /// </summary>
         UI_FORMAT_BUFF_REMOVAL_ENTRIES,
+
+        /// <summary>
+        /// Format => {0} = {Damage Element Title}, {1} = {Damage}
+        /// </summary>
+        UI_FORMAT_ENCHANTING_DAMAGE_WITH_ELEMENTAL,
     }
 }

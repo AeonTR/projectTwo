@@ -230,7 +230,7 @@ namespace MultiplayerARPG
             }
 
             Dictionary<int, DamageElement> filterDamage = new Dictionary<int, DamageElement>();
-            foreach (var damage in GameInstance.DamageElements)
+            foreach(var damage in GameInstance.DamageElements)
             {
                 if (equipmentItem.ItemType == damage.Value.AdapterType)
                 {
@@ -265,8 +265,12 @@ namespace MultiplayerARPG
 
                 var data = enchantingItem.EnchantingDatas[j];
                 data.dataId = newDamage.DataId;
-                data.min = newDamage.DamageRange.min;
-                data.max = newDamage.DamageRange.max;
+
+                Random random = new Random();
+                int v = random.Next(newDamage.DamageRange.min, newDamage.DamageRange.max);
+
+                data.min = v;
+                data.max = v;
 
                 newList.Add(data);
             }

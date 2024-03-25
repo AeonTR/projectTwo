@@ -26,10 +26,13 @@ namespace UtilsComponents
             if (animator == null)
                 return;
             Transform tempTransform = animator.GetBoneTransform(bone);
-            if (followPosition)
-                transform.position = tempTransform.position + positionOffsets;
-            if (followRotation)
-                transform.eulerAngles = tempTransform.eulerAngles + rotationOffsets;
+            if (tempTransform)
+            {
+                if (followPosition)
+                    transform.position = tempTransform.position + positionOffsets;
+                if (followRotation)
+                    transform.eulerAngles = tempTransform.eulerAngles + rotationOffsets;
+            }
         }
 
         [ContextMenu("Force Update")]
@@ -44,14 +47,17 @@ namespace UtilsComponents
         public void MoveChildrenToSelectedBone()
         {
             Transform tempTransform = animator.GetBoneTransform(bone);
-            for (int i = transform.childCount - 1; i >= 0; --i)
+            if (tempTransform)
             {
-                Transform childTransform = transform.GetChild(i);
-                Vector3 position = childTransform.position;
-                Quaternion rotation = childTransform.rotation;
-                childTransform.parent = tempTransform;
-                childTransform.position = position;
-                childTransform.rotation = rotation;
+                for (int i = transform.childCount - 1; i >= 0; --i)
+                {
+                    Transform childTransform = transform.GetChild(i);
+                    Vector3 position = childTransform.position;
+                    Quaternion rotation = childTransform.rotation;
+                    childTransform.parent = tempTransform;
+                    childTransform.position = position;
+                    childTransform.rotation = rotation;
+                }
             }
 #if UNITY_EDITOR
             EditorUtility.SetDirty(transform);

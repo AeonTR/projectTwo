@@ -119,6 +119,9 @@ namespace MultiplayerARPG
         [Tooltip("Format => {0} = {Skill Title}, {1} = {Level}")]
         public UILocaleKeySetting formatKeySkillLevel = new UILocaleKeySetting(UIFormatKeys.UI_FORMAT_SKILL_LEVEL);
 
+        [Tooltip("Format => {0} = {Damage Element Title}, {1} = {Min Damage}, {2} = {Max Damage}")]
+        public UILocaleKeySetting formatKeyEnchantingDamageAmount = new UILocaleKeySetting(UIFormatKeys.UI_FORMAT_ENCHANTING_DAMAGE_WITH_ELEMENTAL);
+
         [Header("UI Elements")]
         public TextWrapper uiTextAllBonus;
 
@@ -276,11 +279,22 @@ namespace MultiplayerARPG
                         if (result.Length > 0)
                             result.Append('\n');
                         tempElement = entry.damageElement == null ? GameInstance.Singleton.DefaultDamageElement : entry.damageElement;
-                        result.AppendFormat(
-                            LanguageManager.GetText(formatKeyDamageAmount),
-                            tempElement.Title,
-                            entry.amount.min.ToBonusString("N0"),
-                            entry.amount.max.ToString("N0"));
+
+                        if ((entry.amount.min == 1 && entry.amount.max == 2) || Mathf.Abs(entry.amount.min - entry.amount.max) < 0.01f)
+                        {
+                            result.AppendFormat(
+                                LanguageManager.GetText(formatKeyEnchantingDamageAmount),
+                                tempElement.Title,
+                                entry.amount.max.ToString("N0"));
+                        }
+                        else
+                        {
+                            result.AppendFormat(
+                                LanguageManager.GetText(formatKeyDamageAmount),
+                                tempElement.Title,
+                                entry.amount.min.ToBonusString("N0"),
+                                entry.amount.max.ToString("N0"));
+                        }
                     }
 
                 if (equipmentBonus.damagesRate != null)

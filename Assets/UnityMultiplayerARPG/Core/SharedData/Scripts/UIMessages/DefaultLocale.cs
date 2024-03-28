@@ -121,6 +121,9 @@ namespace MultiplayerARPG
             Texts.Add(UIFormatKeys.UI_FORMAT_DAMAGE_INFLICTION_AS_ELEMENTAL.ToString(), "Inflict {1}% as {0} damage");
             // Format - Enchangint
             Texts.Add(UIFormatKeys.UI_FORMAT_ENCHANTING_DAMAGE_WITH_ELEMENTAL.ToString(), "{0} Damage: +{1}%");
+            Texts.Add(UIFormatKeys.UI_FORMAT_ENCHANTING.ToString(), "<color=#ffa500ff>{0}</color>\n{1}");
+            Texts.Add(UIFormatKeys.UI_FORMAT_ENCHANTING_APPLIED_EFFECT.ToString(), "<color=#ffa500ff>{0} {1}</color>");
+            Texts.Add(UIFormatKeys.UI_FORMAT_ENCHANTING_UNAPPLIED_EFFECT.ToString(), "{0} {1}");
             // Format - Gold Amount
             Texts.Add(UIFormatKeys.UI_FORMAT_REQUIRE_GOLD.ToString(), "Gold: {0}/{1}");
             Texts.Add(UIFormatKeys.UI_FORMAT_REQUIRE_GOLD_NOT_ENOUGH.ToString(), "Gold: <color=red>{0}/{1}</color>");

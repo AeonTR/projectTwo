@@ -7,11 +7,11 @@ namespace MultiplayerARPG
     {
         [Header("String Formats")]
         [Tooltip("Format => {0} = {Set Title}, {1} = {List Of Effect}")]
-        public UILocaleKeySetting formatKeySet = new UILocaleKeySetting(UIFormatKeys.UI_FORMAT_EQUIPMENT_SET);
+        public UILocaleKeySetting formatKeySet = new UILocaleKeySetting(UIFormatKeys.UI_FORMAT_ENCHANTING);
         [Tooltip("Format => {0} = {Equip Amount}, {1} = {List Of Bonus}")]
-        public UILocaleKeySetting formatKeyAppliedEffect = new UILocaleKeySetting(UIFormatKeys.UI_FORMAT_EQUIPMENT_SET_APPLIED_EFFECT);
+        public UILocaleKeySetting formatKeyAppliedEffect = new UILocaleKeySetting(UIFormatKeys.UI_FORMAT_ENCHANTING_APPLIED_EFFECT);
         [Tooltip("Format => {0} = {Equip Amount}, {1} = {List Of Bonus}")]
-        public UILocaleKeySetting formatKeyUnappliedEffect = new UILocaleKeySetting(UIFormatKeys.UI_FORMAT_EQUIPMENT_SET_UNAPPLIED_EFFECT);
+        public UILocaleKeySetting formatKeyUnappliedEffect = new UILocaleKeySetting(UIFormatKeys.UI_FORMAT_ENCHANTING_UNAPPLIED_EFFECT);
 
         protected override void UpdateData()
         {
@@ -29,7 +29,7 @@ namespace MultiplayerARPG
                         effectCount <= Data.equippedCount ?
                             LanguageManager.GetText(formatKeyAppliedEffect) :
                             LanguageManager.GetText(formatKeyUnappliedEffect),
-                        effectCount.ToString("N0"),
+                        "",
                         tempText);
                 }
                 ++effectCount;

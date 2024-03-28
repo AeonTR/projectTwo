@@ -952,5 +952,8 @@ namespace MultiplayerARPG
         /// Format => {0} = {Damage Element Title}, {1} = {Damage}
         /// </summary>
         UI_FORMAT_ENCHANTING_DAMAGE_WITH_ELEMENTAL,
+        UI_FORMAT_ENCHANTING,
+        UI_FORMAT_ENCHANTING_APPLIED_EFFECT,
+        UI_FORMAT_ENCHANTING_UNAPPLIED_EFFECT
     }
 }

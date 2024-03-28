@@ -61,6 +61,20 @@ namespace MultiplayerARPG
                 return false;
             }
 
+            string type_id = "";
+
+            IArmorItem armorItem = enchantingItem.GetArmorItem();
+            if (armorItem != null)
+            {
+                type_id = armorItem.ArmorType.Id;
+            }
+
+            IWeaponItem weaponItem = enchantingItem.GetWeaponItem();
+            if (weaponItem != null)
+            {
+                type_id = weaponItem.WeaponType.Id;
+            }
+
             BaseItem enhancerItem;
             if (!GameInstance.Items.TryGetValue(paperId, out enhancerItem) || !enhancerItem.IsEnchantingPaper())
             {
@@ -94,7 +108,7 @@ namespace MultiplayerARPG
                 return false;
             }
 
-            int dataId = GetRandomDamageElement(equipmentItem.EnchantingAttributes.damages, equipmentItem.ItemType);
+            int dataId = GetRandomDamageElement(equipmentItem.EnchantingAttributes.damages, type_id);
 
             int count = equipmentItem.EnchantingAttributes.damages.Length;
             Array.Resize(ref equipmentItem.EnchantingAttributes.damages, count + 1);
@@ -119,12 +133,12 @@ namespace MultiplayerARPG
             return true;
         }
 
-        public static int GetRandomDamageElement(DamageAmount[] filter, ItemType itemType)
+        public static int GetRandomDamageElement(DamageAmount[] filter, string type_id)
         {
             Dictionary<int, DamageElement> filterDamage = new Dictionary<int, DamageElement>();
             foreach (var damage in GameInstance.DamageElements)
             {
-                if (itemType == damage.Value.AdapterType)
+                if (damage.Value.AdapterType != null && type_id == damage.Value.AdapterType.Id)
                 {
                     filterDamage.Add(damage.Key, damage.Value);
                 }
@@ -211,6 +225,20 @@ namespace MultiplayerARPG
                 return false;
             }
 
+            string type_id = "";
+
+            IArmorItem armorItem = enchantingItem.GetArmorItem();
+            if (armorItem != null)
+            {
+                type_id = armorItem.ArmorType.Id;
+            }
+
+            IWeaponItem weaponItem = enchantingItem.GetWeaponItem();
+            if (weaponItem != null)
+            {
+                type_id = weaponItem.WeaponType.Id;
+            }
+
             BaseItem enhancerItem;
             if (!GameInstance.Items.TryGetValue(costId, out enhancerItem) || !enhancerItem.IsEnchantingCost())
             {
@@ -232,7 +260,7 @@ namespace MultiplayerARPG
             Dictionary<int, DamageElement> filterDamage = new Dictionary<int, DamageElement>();
             foreach(var damage in GameInstance.DamageElements)
             {
-                if (equipmentItem.ItemType == damage.Value.AdapterType)
+                if (type_id == damage.Value.AdapterType.Id)
                 {
                     filterDamage.Add(damage.Key, damage.Value);
                 }

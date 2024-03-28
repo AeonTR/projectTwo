@@ -21,7 +21,10 @@ MonoBehaviour:
   icon: {fileID: 0}
   resistanceBattlePointScore: 5
   armorBattlePointScore: 5
-  damagePlayers: []
   damageBattlePointScore: 10
   maxResistanceAmount: 1
   damageHitEffects: []
+  damageRange:
+    min: 10
+    max: 20
+  adapterType: {fileID: 11400000, guid: 0253737f3a4bc994cb0be8d992b59240, type: 2}

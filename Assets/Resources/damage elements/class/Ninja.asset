@@ -30,6 +30,7 @@ MonoBehaviour:
   damageBattlePointScore: 10
   maxResistanceAmount: 1
   damageHitEffects: []
-  damagePlayers:
-  - {fileID: 11400000, guid: 8396df7d0ab6c5647a2184a3575fad18, type: 2}
-  - {fileID: 11400000, guid: 51162aca22389db4593ccaa3a64bd602, type: 2}
+  damageRange:
+    min: 10
+    max: 20
+  adapterType: {fileID: 11400000, guid: 0253737f3a4bc994cb0be8d992b59240, type: 2}

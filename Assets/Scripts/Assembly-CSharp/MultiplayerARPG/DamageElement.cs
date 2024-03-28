@@ -48,8 +48,8 @@ namespace MultiplayerARPG
         }
 
         [SerializeField]
-        private ItemType adapterType = ItemType.Weapon;
-        public ItemType AdapterType
+        private BaseGameData adapterType = null;
+        public BaseGameData AdapterType
         {
             get { return adapterType; }
         }
@@ -58,6 +58,7 @@ namespace MultiplayerARPG
         {
             return GameInstance.Singleton.GameplayRule.GetDamageReducedByResistance(damageReceiverResistances, damageReceiverArmors, damageAmount, this);
         }
+
 
         public override void PrepareRelatesData()
         {

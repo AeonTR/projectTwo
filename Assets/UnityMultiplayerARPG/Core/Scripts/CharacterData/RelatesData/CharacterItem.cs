@@ -176,12 +176,50 @@ namespace MultiplayerARPG
         public IArmorItem GetArmorItem()
         {
             MakeCache();
+
+            if (_cacheArmorItem != null)
+            {
+                EquipmentBonus newAttr = new EquipmentBonus();
+                newAttr.damages = new DamageAmount[EnchantingDatas.Count];
+
+                for (int i = 0; i < EnchantingDatas.Count; i++)
+                {
+                    var data = EnchantingDatas[i];
+
+                    newAttr.damages[i] = new DamageAmount();
+                    var damageElement = GameInstance.DamageElements[data.dataId];
+                    newAttr.damages[i].damageElement = damageElement;
+                    newAttr.damages[i].amount = new MinMaxFloat() { max = data.max, min = data.min };
+                }
+
+                _cacheArmorItem.EnchantingAttributes = newAttr;
+            }
+
             return _cacheArmorItem;
         }
 
         public IWeaponItem GetWeaponItem()
         {
             MakeCache();
+
+            if (_cacheWeaponItem != null)
+            {
+                EquipmentBonus newAttr = new EquipmentBonus();
+                newAttr.damages = new DamageAmount[EnchantingDatas.Count];
+
+                for (int i = 0; i < EnchantingDatas.Count; i++)
+                {
+                    var data = EnchantingDatas[i];
+
+                    newAttr.damages[i] = new DamageAmount();
+                    var damageElement = GameInstance.DamageElements[data.dataId];
+                    newAttr.damages[i].damageElement = damageElement;
+                    newAttr.damages[i].amount = new MinMaxFloat() { max = data.max, min = data.min };
+                }
+
+                _cacheWeaponItem.EnchantingAttributes = newAttr;
+            }
+
             return _cacheWeaponItem;
         }
 

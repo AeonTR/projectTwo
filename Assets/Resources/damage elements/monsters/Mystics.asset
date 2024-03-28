@@ -11,23 +11,26 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51843b8397053bbb7daf9eac867c4f64, type: 3}
   m_Name: Mystics
-  m_EditorClassIdentifier:
-  id:
+  m_EditorClassIdentifier: 
+  id: 
   defaultTitle: Mystics
   languageSpecificTitles:
   - key: ENG
     value: Mystics
   - key: ES
-    value: Místicas
+    value: "M\xEDsticas"
   - key: TR
     value: Mistik
-  defaultDescription:
+  defaultDescription: 
   languageSpecificDescriptions: []
-  category:
+  category: 
   icon: {fileID: 21300000, guid: d8012bdf5a571fe4a97534c126e54952, type: 2}
   resistanceBattlePointScore: 5
   armorBattlePointScore: 5
   damageBattlePointScore: 10
   maxResistanceAmount: 1
   damageHitEffects: []
-  damagePlayers: []
+  damageRange:
+    min: 10
+    max: 20
+  adapterType: {fileID: 11400000, guid: 0253737f3a4bc994cb0be8d992b59240, type: 2}

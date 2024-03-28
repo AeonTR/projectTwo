@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51843b8397053bbb7daf9eac867c4f64, type: 3}
   m_Name: Half Human
-  m_EditorClassIdentifier:
-  id:
+  m_EditorClassIdentifier: 
+  id: 
   defaultTitle: Half Human
   languageSpecificTitles:
   - key: ENG
@@ -20,22 +20,17 @@ MonoBehaviour:
   - key: ES
     value: Medio humano
   - key: TR
-    value: Yarı İnsan
-  defaultDescription:
+    value: "Yar\u0131 \u0130nsan"
+  defaultDescription: 
   languageSpecificDescriptions: []
-  category:
+  category: 
   icon: {fileID: 21300000, guid: fd95e751802e18d4c863e0be8a4816cf, type: 2}
   resistanceBattlePointScore: 5
   armorBattlePointScore: 5
   damageBattlePointScore: 10
   maxResistanceAmount: 1
   damageHitEffects: []
-  damagePlayers:
-  - {fileID: 11400000, guid: 02985a42c21cd854fb4ca24c1135541e, type: 2}
-  - {fileID: 11400000, guid: 9c2c3d492fc5dd8459d3c86df66564f3, type: 2}
-  - {fileID: 11400000, guid: f917e9121dc0b3d49b9f725dfab9dfa5, type: 2}
-  - {fileID: 11400000, guid: 5330b12d59424ce42843fe745ad9b8e1, type: 2}
-  - {fileID: 11400000, guid: 6879b6c60790f394a9c635923690ff92, type: 2}
-  - {fileID: 11400000, guid: a2546b80d3abb14429ba20ed6dfd7526, type: 2}
-  - {fileID: 11400000, guid: aa7609f4d9f671148b2cdd259ca4e790, type: 2}
-  - {fileID: 11400000, guid: f0d98a902581a72409edbb90f8ec8236, type: 2}
+  damageRange:
+    min: 10
+    max: 20
+  adapterType: {fileID: 11400000, guid: 0253737f3a4bc994cb0be8d992b59240, type: 2}

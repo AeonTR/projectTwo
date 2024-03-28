@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51843b8397053bbb7daf9eac867c4f64, type: 3}
   m_Name: Monster
-  m_EditorClassIdentifier:
-  id:
+  m_EditorClassIdentifier: 
+  id: 
   defaultTitle: Monster
   languageSpecificTitles:
   - key: ENG
@@ -20,14 +20,17 @@ MonoBehaviour:
   - key: ES
     value: Monstruo
   - key: TR
-    value: Yaratık
-  defaultDescription:
+    value: "Yarat\u0131k"
+  defaultDescription: 
   languageSpecificDescriptions: []
-  category:
+  category: 
   icon: {fileID: 21300000, guid: fe5ca3981b4bd734e98c942b9ba3abb3, type: 2}
   resistanceBattlePointScore: 5
   armorBattlePointScore: 5
   damageBattlePointScore: 10
   maxResistanceAmount: 1
   damageHitEffects: []
-  damagePlayers: []
+  damageRange:
+    min: 10
+    max: 20
+  adapterType: {fileID: 11400000, guid: 0253737f3a4bc994cb0be8d992b59240, type: 2}

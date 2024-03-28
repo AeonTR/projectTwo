@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51843b8397053bbb7daf9eac867c4f64, type: 3}
   m_Name: Dagger
-  m_EditorClassIdentifier:
-  id:
+  m_EditorClassIdentifier: 
+  id: 
   defaultTitle: Dagger
   languageSpecificTitles:
   - key: ENG
@@ -20,14 +20,17 @@ MonoBehaviour:
   - key: ES
     value: Daga
   - key: TR
-    value: Hançer
-  defaultDescription:
+    value: "Han\xE7er"
+  defaultDescription: 
   languageSpecificDescriptions: []
-  category:
+  category: 
   icon: {fileID: 21300000, guid: 32d9b63b660521a4d8d679d42b0cadd0, type: 2}
   resistanceBattlePointScore: 5
   armorBattlePointScore: 5
   damageBattlePointScore: 10
   maxResistanceAmount: 1
   damageHitEffects: []
-  damagePlayers: []
+  damageRange:
+    min: 10
+    max: 20
+  adapterType: {fileID: 11400000, guid: 0253737f3a4bc994cb0be8d992b59240, type: 2}
